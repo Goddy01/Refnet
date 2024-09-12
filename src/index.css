@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Custom gradient hover effect with purple to blue gradient */
+.gradient-hover {
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0); /* Purple to Blue gradient */
+    background-image: linear-gradient(to right, #008080, #0000ff); /* Teal to Blue gradient */
+    background-size: 100% 0%;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s ease-in-out, color 0.3s ease-in-out, border 0.3s ease-in-out;
+    color: #fff; /* Default text color */
+    border: 3px solid transparent; /* Default border */
+    font-weight: bold;
+  }
+  
+  .gradient-hover:hover {
+    background-size: 100% 100%;
+    transform: scale(1.05); /* Slightly scale up the button */
+    color: #ffffff; /* Text color on hover */
+    border: 3px solid #ffffff; /* Border color on hover */
+  }
+  
+  .waitlist-btn {
+    background-size: 100% 100%;
+    color: #ffffff; /* Text color on hover */
+    border: 3px solid #ffffff; /* Border color on hover */
+  }
+  /* Custom gradient text effect */
+    /* Custom gradient text effect with purple to blue gradient */
+.gradient-text {
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: bold;
+  }
+  
