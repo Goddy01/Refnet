@@ -29,9 +29,9 @@ export default function Pricing() {
   return (
     <div
       ref={sectionRef}
-      className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-purple-400 to-[#19469D] px-4 py-[10vh]"
+      className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 to-[#19469D] px-4 py-[10vh]"
     >
-      <h2 className='text-4xl font-bold text-center mb-8 text-gray-100 tracking-wider font-poppins animate-bounce'>
+      <h2 className='text-4xl font-extrabold text-center mb-8 text-gray-100 tracking-wider font-poppins animate-bounce'>
         <span className="uppercase">
           Pricing
         </span>

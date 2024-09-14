@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import Image from '/src/assets/images/refer3.svg';
+import Image from '/src/assets/images/refer2.svg';
 
 export default function HomeSection2() {
   const stepRefs = [useRef(), useRef(), useRef()]; // Refs for each step box
@@ -39,17 +39,17 @@ export default function HomeSection2() {
 
   return (
     <div
-      className='min-h-screen p-4 pt-[3rem] flex flex-col items-center justify-center py-[8vh] opacity-80'
-      style={{
-        backgroundImage: `url(${Image})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        backgroundPositionY: '18vh',
-      }}
+      className='min-h-screen p-4 pt-[3rem] flex flex-col items-center justify-center py-11'
+    //   style={{
+    //     backgroundImage: `url(${Image})`,
+    //     backgroundSize: 'cover',
+    //     backgroundPosition: 'center',
+    //     backgroundRepeat: 'no-repeat',
+    //     backgroundPositionY: '-20vh',
+    //   }}
     >
       <div className='container mx-auto relative z-10'>
-        <h2 className='text-4xl font-bold text-center mb-8 text-indigo-700 tracking-wider font-poppins animate-bounce text-nowrap'>
+        <h2 className='text-4xl font-extrabold text-center mb-8 text-blue-600 tracking-wider font-poppins animate-bounce text-nowrap'>
           HOW IT WORKS
         </h2>
         <div className='grid grid-cols-1 gap-8 px-4 lg:px-6 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 text-gray-900'>
