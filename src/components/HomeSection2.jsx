@@ -38,7 +38,8 @@ export default function HomeSection2() {
   }, []);
 
   return (
-    <div
+    <section
+      id='how-it-works'
       className='min-h-screen p-4 pt-[3rem] flex flex-col items-center justify-center py-11'
     //   style={{
     //     backgroundImage: `url(${Image})`,
@@ -104,6 +105,6 @@ export default function HomeSection2() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -53,8 +53,9 @@ export default function Header(props) {
             <ul className="flex flex-col items-center justify-center lg:flex-row lg:space-x-4 space-y-[2.3rem] lg:space-y-0 w-full lg:w-auto">
             <li>
                 <a
-                    href="#about"
+                    href="#pricing"
                     className="relative px-3 py-2 rounded transition-colors duration-300 after:absolute after:left-0 after:bottom-0 after:w-0 after:h-1 after:bg-white after:transition-all after:duration-300 hover:after:w-full"
+                    onClick={toggleMenu}
                 >
                     Pricing
                 </a>
@@ -64,18 +65,19 @@ export default function Header(props) {
                 <a
                   href="#how-it-works"
                   className="relative px-3 py-2 rounded transition-colors duration-300 after:absolute after:left-0 after:bottom-0 after:w-0 after:h-1 after:bg-white after:transition-all after:duration-300 hover:after:w-full"
+                  onClick={toggleMenu}
                 >
                   How It Works
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="#contact"
                   className="relative px-3 py-2 rounded transition-colors duration-300 after:absolute after:left-0 after:bottom-0 after:w-0 after:h-1 after:bg-white after:transition-all after:duration-300 hover:after:w-full"
                 >
                   Contact
                 </a>
-              </li>
+              </li> */}
 
               <li className='lg:absolute lg:right-0'>
                 <a

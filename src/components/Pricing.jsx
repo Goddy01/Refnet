@@ -27,7 +27,8 @@ export default function Pricing() {
   }, []);
 
   return (
-    <div
+    <section 
+      id='pricing'
       ref={sectionRef}
       className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 to-[#19469D] px-4 py-[10vh]"
     >
@@ -135,6 +136,6 @@ export default function Pricing() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

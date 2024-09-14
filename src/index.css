@@ -6,6 +6,11 @@
     font-family: "Poppins", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
+
 /* Custom gradient hover effect with purple to blue gradient */
 .gradient-hover {
     background-image: linear-gradient(to right, #8e2de2, #4a00e0); /* Purple to Blue gradient */
