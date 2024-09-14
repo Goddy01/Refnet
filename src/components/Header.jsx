@@ -1,11 +1,7 @@
 import React, { useState } from 'react';
 
-export default function Header() {
-  const [showNav, setShowNav] = useState(false);
-
-  const toggleMenu = () => {
-    setShowNav(!showNav);
-  };
+export default function Header(props) {
+  const {toggleModal, closeModal,  isModalOpen, setIsModalOpen, toggleMenu, showNav,  handleSubmit, email,setEmail, isSubmitted, setIsSubmitted} = props
 
   return (
     <div>
@@ -84,7 +80,7 @@ export default function Header() {
               <li className='lg:absolute lg:right-0'>
                 <a
                   href="#home"
-                  className="gradient-hover px-1 py-2 rounded transition-colors duration-300 waitlist-btn flex flex-row"
+                  className="gradient-hover px-1 py-2 rounded transition-colors duration-300 waitlist-btn flex flex-row" onClick={toggleModal}
                 >
                   Join the Waitlist
                 </a>
