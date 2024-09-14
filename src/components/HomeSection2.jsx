@@ -45,13 +45,14 @@ export default function HomeSection2() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
+        backgroundPositionY: '15vh',
       }}
     >
       <div className='container mx-auto relative z-10'>
-        <h2 className='text-4xl font-bold text-center mb-8 lg:text-gray-50 tracking-wider font-poppins animate-bounce sm:text-blue-500 text-blue-700 text-nowrap'>
+        <h2 className='text-4xl font-bold text-center mb-8 text-indigo-700 tracking-wider font-poppins animate-bounce text-nowrap'>
           HOW IT WORKS
         </h2>
-        <div className='grid grid-cols-1 gap-8 px-4 lg:px-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-gray-900'>
+        <div className='grid grid-cols-1 gap-8 px-4 lg:px-6 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 text-gray-900'>
           {/* Step 1 */}
           <div
             ref={stepRefs[0]}

@@ -11,7 +11,7 @@ export default function HomeSection1() {
       />
 
       {/* Overlay Content */}
-      <div className="absolute top-[30vh] flex flex-col w-full items-center text-center text-gray-50 z-10 px-4 md:px-8 lg:px-16">
+      <div className="absolute top-[25vh] flex flex-col w-full items-center text-center text-gray-50 z-10 px-4 md:px-8 lg:px-16">
         <h1 className="
             text-transparent 
             bg-clip-text 
@@ -24,7 +24,7 @@ export default function HomeSection1() {
         <p className="
             text-gray-50 font-semibold text-lg px-7
           ">
-          Powering Your Career Through Professional Referrals
+          Powering Careers Through Professional Referrals
         </p>
         <button className="gradient-hover px-6 py-3 rounded-lg transition-all duration-300 waitlist-btn mt-[1rem] text-lg font-semibold">
             JOIN THE WAITLIST

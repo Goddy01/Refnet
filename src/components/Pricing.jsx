@@ -37,7 +37,7 @@ export default function Pricing() {
         </span>
       </h2>
       <div className={`flex justify-center w-full transition-all duration-1000 ${isVisible ? 'animate-slideUp' : ''}`}>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-[4.5rem] px-4 lg:px-6 max-w-screen-xl">
+        <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-[4.5rem] gap-5 px-4 lg:px-6 max-w-screen-xl">
           {/* Basic Plan */}
           <div className="relative overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300 ease-in-out md:w-[50vw] lg:w-full cursor-pointer">
             <div className="p-6 md:p-8 flex flex-col h-full">
