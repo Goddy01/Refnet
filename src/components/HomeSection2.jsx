@@ -39,7 +39,7 @@ export default function HomeSection2() {
 
   return (
     <div
-      className='min-h-screen p-4 pt-[3rem] flex flex-col items-center justify-center py-[8vh]'
+      className='min-h-screen p-4 pt-[3rem] flex flex-col items-center justify-center py-[8vh] opacity-80'
       style={{
         backgroundImage: `url(${Image})`,
         backgroundSize: 'cover',
