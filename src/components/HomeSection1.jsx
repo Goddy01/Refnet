@@ -22,11 +22,11 @@ export default function HomeSection1() {
           Your Career Accelerator
         </h1>
         <p className="
-            text-gray-50 font-semi-bold text-base px-7
+            text-gray-50 font-semibold text-lg px-7
           ">
           Powering Your Career Through Professional Referrals
         </p>
-        <button className="gradient-hover px-6 py-3 rounded-lg transition-all duration-300 waitlist-btn mt-[3rem] text-lg font-semibold">
+        <button className="gradient-hover px-6 py-3 rounded-lg transition-all duration-300 waitlist-btn mt-[1rem] text-lg font-semibold">
             JOIN THE WAITLIST
         </button>
 

@@ -46,7 +46,7 @@ export default function HomeSection2() {
           {/* Step 1 */}
           <div
             ref={stepRefs[0]}
-            className='opacity-0 flex flex-col items-center border border-gray-300 rounded-lg p-6 bg-gray-50 font-semi-bold h-[50vh] transition-transform transform duration-300 ease-in-out hover:scale-110 hover:shadow-3xl hover:bg-blue-50 hover:cursor-pointer'
+            className='opacity-0 flex flex-col items-center border border-gray-300 rounded-lg p-6 bg-gray-50 font-semi-bold sm:h-auto lg:h-[50vh] transition-transform transform duration-300 ease-in-out hover:scale-110 hover:shadow-3xl hover:bg-blue-50 hover:cursor-pointer'
           >
             <div className='w-20 h-20 flex items-center justify-center rounded-full mb-4 border-1 bg-blue-600 text-white hover:bg-blue-800 transition-colors duration-300'>
               <span className='text-4xl font-bold'>1</span>
@@ -63,7 +63,7 @@ export default function HomeSection2() {
           {/* Step 2 */}
           <div
             ref={stepRefs[1]}
-            className='opacity-0 flex flex-col items-center border border-gray-300 rounded-lg p-6 bg-gray-50 font-semi-bold h-[50vh] transition-transform transform duration-300 ease-in-out hover:scale-110 hover:shadow-3xl hover:bg-blue-50 hover:cursor-pointer'
+            className='opacity-0 flex flex-col items-center border border-gray-300 rounded-lg p-6 bg-gray-50 font-semi-bold sm:h-auto lg:h-[50vh] transition-transform transform duration-300 ease-in-out hover:scale-110 hover:shadow-3xl hover:bg-blue-50 hover:cursor-pointer'
           >
             <div className='w-20 h-20 flex items-center justify-center rounded-full mb-4 border-1 bg-blue-600 text-white hover:bg-teal-700 transition-colors duration-300'>
               <span className='text-4xl font-bold'>2</span>
@@ -80,7 +80,7 @@ export default function HomeSection2() {
           {/* Step 3 */}
           <div
             ref={stepRefs[2]}
-            className='opacity-0 flex flex-col items-center border border-gray-300 rounded-lg p-6 bg-gray-50 font-semi-bold h-[50vh] transition-transform transform duration-300 ease-in-out hover:scale-110 hover:shadow-3xl hover:bg-blue-50 hover:cursor-pointer'
+            className='opacity-0 flex flex-col items-center border border-gray-300 rounded-lg p-6 bg-gray-50 font-semi-bold sm:h-auto lg:h-[50vh] transition-transform transform duration-300 ease-in-out hover:scale-110 hover:shadow-3xl hover:bg-blue-50 hover:cursor-pointer'
           >
             <div className='w-20 h-20 flex items-center justify-center rounded-full mb-4 border-1 bg-blue-600 text-white hover:bg-indigo-700 transition-colors duration-300'>
               <span className='text-4xl font-bold'>3</span>
