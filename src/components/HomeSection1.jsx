@@ -69,7 +69,7 @@ export default function HomeSection1(props) {
                   />
                   <button
                     type="submit"
-                    className="w-full bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                    className="w-full gradient-hover waitlist-btn text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
                   >
                     Submit
                   </button>
