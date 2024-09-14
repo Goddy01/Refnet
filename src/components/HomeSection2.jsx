@@ -45,7 +45,7 @@ export default function HomeSection2() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        backgroundPositionY: '15vh',
+        backgroundPositionY: '18vh',
       }}
     >
       <div className='container mx-auto relative z-10'>
