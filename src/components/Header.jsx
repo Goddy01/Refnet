@@ -33,7 +33,7 @@ export default function Header() {
             </svg>
           </button>
           <nav
-            className={`lg:flex lg:items-center lg:space-x-4 fixed top-0 right-0 h-[50vh] lg:h-auto bg-[#2C56A5] lg:bg-transparent lg:opacity-100 transition-transform duration-300 ease-in-out transform ${showNav ? 'translate-x-0' : 'translate-x-full'} lg:translate-x-0 lg:relative lg:flex lg:flex-row lg:space-x-4 lg:w-[50vw] w-[50vw]`}
+            className={`lg:flex lg:items-center lg:space-x-4 fixed top-0 right-0 h-[100vh] lg:h-auto bg-[#2C56A5] lg:bg-transparent lg:opacity-100 transition-transform duration-300 ease-in-out transform ${showNav ? 'translate-x-0' : 'translate-x-full'} lg:translate-x-0 lg:relative lg:flex lg:flex-row lg:space-x-4 lg:w-[50vw] w-[50vw] px-4`}
           >
             <button
               className="text-white p-4 self-end lg:hidden"
@@ -84,7 +84,7 @@ export default function Header() {
               <li className='lg:absolute lg:right-0'>
                 <a
                   href="#home"
-                  className="gradient-hover px-3 py-2 rounded transition-colors duration-300 waitlist-btn"
+                  className="gradient-hover px-1 py-2 rounded transition-colors duration-300 waitlist-btn flex flex-row"
                 >
                   Join the Waitlist
                 </a>
