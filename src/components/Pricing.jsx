@@ -34,16 +34,16 @@ export default function Pricing() {
     >
       <h2 className='text-4xl font-extrabold text-center mb-8 text-gray-100 tracking-wider font-poppins animate-bounce'>
         <span className="uppercase">
-          Pricing
+          Pricing Plans
         </span>
       </h2>
       <div className={`flex justify-center w-full transition-all duration-1000 ${isVisible ? 'animate-slideUp' : ''}`}>
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-[4.5rem] gap-5 px-4 lg:px-6 max-w-screen-xl">
           {/* Basic Plan */}
-          <div className="relative overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300 ease-in-out w-[70vw] lg:w-full cursor-pointer">
+          <div className="relative overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300 ease-in-out w-[70vw] lg:w-[20vw] cursor-pointer">
             <div className="p-6 md:p-8 flex flex-col h-full">
               <h3 className="text-2xl md:text-3xl font-semibold text-center text-gray-800">
-                Basic Plan
+                Basic
               </h3>
               <div className="mt-4 md:mt-6 flex justify-center">
                 <span className="text-3xl md:text-4xl font-bold">$19</span>
@@ -66,10 +66,10 @@ export default function Pricing() {
           </div>
 
           {/* Pro Plan */}
-          <div className="relative overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300 ease-in-out w-full  cursor-pointer">
+          <div className="relative overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300 ease-in-out w-[70vw] lg:w-[20vw] cursor-pointer">
             <div className="p-6 md:p-8 flex flex-col h-full">
               <h3 className="text-2xl md:text-3xl font-semibold text-center text-gray-800">
-                Pro Plan
+                Pro
               </h3>
               <div className="mt-4 md:mt-6 flex justify-center">
                 <span className="text-3xl md:text-4xl font-bold">$49</span>
@@ -92,10 +92,10 @@ export default function Pricing() {
           </div>
 
           {/* Premium Plan */}
-          <div className="relative overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300 ease-in-out w-full cursor-pointer">
+          <div className="relative overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300 ease-in-out w-[70vw] lg:w-[20vw] cursor-pointer">
             <div className="p-6 md:p-8 flex flex-col h-full">
               <h3 className="text-2xl md:text-3xl font-semibold text-center text-gray-800">
-                Premium Plan
+                Premium
               </h3>
               <div className="mt-4 md:mt-6 flex justify-center">
                 <span className="text-3xl md:text-4xl font-bold">$99</span>
