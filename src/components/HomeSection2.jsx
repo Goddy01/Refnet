@@ -40,7 +40,7 @@ export default function HomeSection2() {
   return (
     <section
       id='how-it-works'
-      className='min-h-screen p-4 pt-[3rem] flex flex-col items-center justify-center py-11'
+      className='min-h-screen px-4 flex flex-col items-center justify-center py-[10vh]'
     //   style={{
     //     backgroundImage: `url(${Image})`,
     //     backgroundSize: 'cover',

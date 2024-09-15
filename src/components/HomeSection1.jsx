@@ -5,7 +5,7 @@ export default function HomeSection1(props) {
   const {toggleModal, closeModal,  isModalOpen, setIsModalOpen, handleSubmit, email,setEmail, isSubmitted, setIsSubmitted} = props
 
   return (
-    <div className="relative min-h-screen w-full mt-9">
+    <div className="relative min-h-screen w-full my-9 py-11">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"

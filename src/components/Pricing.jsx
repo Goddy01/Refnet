@@ -40,29 +40,23 @@ export default function Pricing() {
       <div className={`flex justify-center w-full transition-all duration-1000 ${isVisible ? 'animate-slideUp' : ''}`}>
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-[4.5rem] gap-5 px-4 lg:px-6 max-w-screen-xl">
           {/* Basic Plan */}
-          <div className="relative overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300 ease-in-out md:w-[50vw] lg:w-full cursor-pointer">
+          <div className="relative overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300 ease-in-out w-[70vw] lg:w-full cursor-pointer">
             <div className="p-6 md:p-8 flex flex-col h-full">
               <h3 className="text-2xl md:text-3xl font-semibold text-center text-gray-800">
                 Basic Plan
               </h3>
-              <p className="mt-2 md:mt-4 text-center text-gray-600">
-                Best for individuals starting out
-              </p>
               <div className="mt-4 md:mt-6 flex justify-center">
                 <span className="text-3xl md:text-4xl font-bold">$19</span>
                 <span className="text-sm md:text-lg font-medium text-gray-600 self-end">
                   /month
                 </span>
               </div>
-              <ul className="mt-4 md:mt-6 space-y-2 md:space-y-4 flex-grow">
+              <ul className="mt-4 md:mt-6 space-y-2 md:space-y-4 flex flex-col flex-grow items-center">
                 <li className="flex items-center text-gray-700">
-                  <span className="mr-1 md:mr-2 text-green-500">✔️</span> 5 GB Storage
+                  5 GB Storage
                 </li>
                 <li className="flex items-center text-gray-700">
-                  <span className="mr-1 md:mr-2 text-green-500">✔️</span> Unlimited Bandwidth
-                </li>
-                <li className="flex items-center text-gray-700">
-                  <span className="mr-1 md:mr-2 text-green-500">✔️</span> 24/7 Support
+                  Unlimited Bandwidth
                 </li>
               </ul>
               <button className="mt-4 md:mt-6 w-full bg-gradient-to-r from-blue-500 to-blue-700 text-white rounded-lg py-2 md:py-3 font-semibold hover:from-blue-600 hover:to-blue-800 transition duration-300 ease-in-out">
@@ -77,24 +71,18 @@ export default function Pricing() {
               <h3 className="text-2xl md:text-3xl font-semibold text-center text-gray-800">
                 Pro Plan
               </h3>
-              <p className="mt-2 md:mt-4 text-center text-gray-600">
-                Best for growing teams
-              </p>
               <div className="mt-4 md:mt-6 flex justify-center">
                 <span className="text-3xl md:text-4xl font-bold">$49</span>
                 <span className="text-sm md:text-lg font-medium text-gray-600 self-end">
                   /month
                 </span>
               </div>
-              <ul className="mt-4 md:mt-6 space-y-2 md:space-y-4 flex-grow">
+              <ul className="mt-4 md:mt-6 space-y-2 md:space-y-4 flex flex-col flex-grow items-center">
                 <li className="flex items-center text-gray-700">
-                  <span className="mr-1 md:mr-2 text-green-500">✔️</span> 50 GB Storage
+                  50 GB Storage
                 </li>
                 <li className="flex items-center text-gray-700">
-                  <span className="mr-1 md:mr-2 text-green-500">✔️</span> Unlimited Bandwidth
-                </li>
-                <li className="flex items-center text-gray-700">
-                  <span className="mr-1 md:mr-2 text-green-500">✔️</span> 24/7 Priority Support
+                  Unlimited Bandwidth
                 </li>
               </ul>
               <button className="mt-4 md:mt-6 w-full bg-gradient-to-r from-blue-500 to-blue-700 text-white rounded-lg py-2 md:py-3 font-semibold hover:from-blue-600 hover:to-blue-800 transition duration-300 ease-in-out">
@@ -104,29 +92,23 @@ export default function Pricing() {
           </div>
 
           {/* Premium Plan */}
-          <div className="relative overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300 ease-in-out w-full  cursor-pointer">
+          <div className="relative overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300 ease-in-out w-full cursor-pointer">
             <div className="p-6 md:p-8 flex flex-col h-full">
               <h3 className="text-2xl md:text-3xl font-semibold text-center text-gray-800">
                 Premium Plan
               </h3>
-              <p className="mt-2 md:mt-4 text-center text-gray-600">
-                Best for large businesses
-              </p>
               <div className="mt-4 md:mt-6 flex justify-center">
                 <span className="text-3xl md:text-4xl font-bold">$99</span>
                 <span className="text-sm md:text-lg font-medium text-gray-600 self-end">
                   /month
                 </span>
               </div>
-              <ul className="mt-4 md:mt-6 space-y-2 md:space-y-4 flex-grow">
+              <ul className="mt-4 md:mt-6 space-y-2 md:space-y-4 flex flex-col flex-grow items-center">
                 <li className="flex items-center text-gray-700">
-                  <span className="mr-1 md:mr-2 text-green-500">✔️</span> 200 GB Storage
+                  200 GB Storage
                 </li>
                 <li className="flex items-center text-gray-700">
-                  <span className="mr-1 md:mr-2 text-green-500">✔️</span> Unlimited Bandwidth
-                </li>
-                <li className="flex items-center text-gray-700">
-                  <span className="mr-1 md:mr-2 text-green-500">✔️</span> 24/7 Dedicated Support
+                  Unlimited Bandwidth
                 </li>
               </ul>
               <button className="mt-4 md:mt-6 w-full bg-gradient-to-r from-blue-500 to-blue-700 text-white rounded-lg py-2 md:py-3 font-semibold hover:from-blue-600 hover:to-blue-800 transition duration-300 ease-in-out">
