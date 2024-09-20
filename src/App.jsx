@@ -3,6 +3,7 @@ import HomeSection1 from './components/HomeSection1'
 import HomeSection2 from './components/HomeSection2'
 import Header from './components/Header'
 import Pricing from './components/Pricing'
+import '/src/axiosConfig.js';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
   // Function to toggle modal state
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
+    console.log('fuck you man!');
     if (showNav === true) {
       toggleMenu()
     }

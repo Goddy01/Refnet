@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 
 export default function Header(props) {
-  const {toggleModal, closeModal,  isModalOpen, setIsModalOpen, toggleMenu, showNav,  handleSubmit, email,setEmail, isSubmitted, setIsSubmitted} = props
+  const {toggleModal, closeModal,  isModalOpen, setIsModalOpen, toggleMenu, showNav,  handleSubmit, email, setEmail, isSubmitted, setIsSubmitted} = props
 
   return (
     <div>
       {/* Fixed Header */}
       <header className="fixed top-0 left-0 right-0 text-white p-4 bg-[#19469D] z-50 w-full">
         <div className="container mx-auto flex items-center justify-between">
-          <h1 className="text-[23px] font-bold gradient-text">Refnet</h1>
+          <h1 className="text-[23px] font-bold gradient-text">Gorah</h1>
           <button
             className="lg:hidden px-3 py-2 text-gray-200 hover:text-gray-400 focus:outline-none"
             onClick={toggleMenu}
@@ -79,14 +79,14 @@ export default function Header(props) {
                 </a>
               </li> */}
 
-              <li className='lg:absolute lg:right-0'>
+              {/* <li className='lg:absolute lg:right-0'>
                 <a
                   href="#home"
-                  className="gradient-hover px-1 py-2 rounded transition-colors duration-300 waitlist-btn flex flex-row" onClick={toggleModal}
+                  className="gradient-hover px-2 py-2 rounded transition-colors duration-300 waitlist-btn flex flex-row" onClick={toggleModal}
                 >
                   Join the Waitlist
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>

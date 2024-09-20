@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import Image from '/src/assets/images/refer2.svg';
 
 export default function HomeSection2() {
-  const stepRefs = [useRef(), useRef(), useRef()]; // Refs for each step box
+  const stepRefs = [useRef(), useRef(), useRef(), useRef(), useRef(), useRef()]; // Refs for each step box
 
   useEffect(() => {
     const observerOptions = {
@@ -41,67 +41,93 @@ export default function HomeSection2() {
     <section
       id='how-it-works'
       className='min-h-screen px-4 flex flex-col items-center justify-center py-[10vh]'
-    //   style={{
-    //     backgroundImage: `url(${Image})`,
-    //     backgroundSize: 'cover',
-    //     backgroundPosition: 'center',
-    //     backgroundRepeat: 'no-repeat',
-    //     backgroundPositionY: '-20vh',
-    //   }}
+      
     >
       <div className='container mx-auto relative z-10'>
         <h2 className='text-4xl font-extrabold text-center mb-8 text-blue-600 tracking-wider font-poppins animate-bounce text-nowrap'>
           HOW IT WORKS
         </h2>
-        <div className='grid grid-cols-1 gap-8 px-4 lg:px-6 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 text-gray-900'>
-          {/* Step 1 */}
-          <div
-            ref={stepRefs[0]}
-            className='opacity-0 flex flex-col items-center border border-gray-300 rounded-lg p-6 bg-gray-50 font-semi-bold sm:h-auto lg:h-[45vh] transition-transform transform duration-300 ease-in-out hover:scale-110 hover:shadow-3xl hover:bg-blue-50 hover:cursor-pointer'
-          >
-            <div className='w-20 h-20 flex items-center justify-center rounded-full mb-4 border-1 bg-blue-600 text-white hover:bg-blue-800 transition-colors duration-300'>
-              <span className='text-4xl font-bold'>1</span>
+        <div className='grid grid-cols-1 gap-[8rem] px-4 lg:px-6 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 text-gray-900'>
+          {/* Professionals Section */}
+          <div className='flex flex-col items-center gap-11'>
+            <h3 className='text-2xl font-semibold text-blue-500'>For Professionals</h3>
+            {/* Step 1 for Professionals */}
+            <div
+              ref={stepRefs[0]}
+              className='opacity-0 flex flex-col items-center border border-gray-300 rounded-lg p-6 bg-gray-50 font-semi-bold sm:h-auto h-auto transition-transform transform duration-300 ease-in-out hover:scale-110 hover:shadow-3xl hover:bg-blue-50 hover:cursor-pointer'
+            >
+              <div className='w-20 h-20 flex items-center justify-center rounded-full mb-4 border-1 bg-blue-600 text-white hover:bg-blue-800 transition-colors duration-300'>
+                <span className='text-4xl font-bold'>1</span>
+              </div>
+              <p className='text-center'>
+              Know someone who’s a great fit for a job? Easily refer them to companies looking for talent.
+              </p>
             </div>
-            <p className='text-center'>
-              Begin by understanding the core problem or challenge you're facing.
-              This initial step involves gathering relevant information, setting
-              goals, and establishing a clear plan to address the issue at hand.
-              Detailed research and proper planning are crucial for setting a
-              solid foundation.
-            </p>
+            {/* Step 2 for Professionals */}
+            <div
+              ref={stepRefs[1]}
+              className='opacity-0 flex flex-col items-center border border-gray-300 rounded-lg p-6 bg-gray-50 font-semi-bold sm:h-auto h-auto transition-transform transform duration-300 ease-in-out hover:scale-110 hover:shadow-3xl hover:bg-blue-50 hover:cursor-pointer'
+            >
+              <div className='w-20 h-20 flex items-center justify-center rounded-full mb-4 border-1 bg-blue-600 text-white hover:bg-teal-700 transition-colors duration-300'>
+                <span className='text-4xl font-bold'>2</span>
+              </div>
+              <p className='text-center'>
+              See how your referral is doing through every step of the process, from submission to interview.
+              </p>
+            </div>
+            {/* Step 3 for Professionals */}
+            <div
+              ref={stepRefs[2]}
+              className='opacity-0 flex flex-col items-center border border-gray-300 rounded-lg p-6 bg-gray-50 font-semi-bold sm:h-auto h-auto transition-transform transform duration-300 ease-in-out hover:scale-110 hover:shadow-3xl hover:bg-blue-50 hover:cursor-pointer'
+            >
+              <div className='w-20 h-20 flex items-center justify-center rounded-full mb-4 border-1 bg-blue-600 text-white hover:bg-indigo-700 transition-colors duration-300'>
+                <span className='text-4xl font-bold'>3</span>
+              </div>
+              <p className='text-center'>
+              When your referral gets hired, you’ll receive recognition and rewards for your contribution.
+              </p>
+            </div>
           </div>
 
-          {/* Step 2 */}
-          <div
-            ref={stepRefs[1]}
-            className='opacity-0 flex flex-col items-center border border-gray-300 rounded-lg p-6 bg-gray-50 font-semi-bold sm:h-auto lg:h-[45vh] transition-transform transform duration-300 ease-in-out hover:scale-110 hover:shadow-3xl hover:bg-blue-50 hover:cursor-pointer'
-          >
-            <div className='w-20 h-20 flex items-center justify-center rounded-full mb-4 border-1 bg-blue-600 text-white hover:bg-teal-700 transition-colors duration-300'>
-              <span className='text-4xl font-bold'>2</span>
+          {/* Job Seekers Section */}
+          <div className='flex flex-col items-center gap-11'>
+            <h3 className='text-2xl font-semibold text-blue-500'>For Job Seekers</h3>
+            {/* Step 1 for Job Seekers */}
+            <div
+              ref={stepRefs[3]}
+              className='opacity-0 flex flex-col items-center border border-gray-300 rounded-lg p-6 bg-gray-50 font-semi-bold sm:h-auto h-auto transition-transform transform duration-300 ease-in-out hover:scale-110 hover:shadow-3xl hover:bg-blue-50 hover:cursor-pointer'
+            >
+              <div className='w-20 h-20 flex items-center justify-center rounded-full mb-4 border-1 bg-blue-600 text-white hover:bg-blue-800 transition-colors duration-300'>
+                <span className='text-4xl font-bold'>1</span>
+              </div>
+              <p className='text-center'>
+              Professionals in your industry can refer you directly to companies, giving you an edge in your job search.
+              </p>
             </div>
-            <p className='text-center'>
-              The next step involves executing the plan created in the first
-              stage. This includes implementing strategies, coordinating with
-              team members, and continuously monitoring progress. Adjustments and
-              refinements are made based on real-time feedback and evolving
-              circumstances.
-            </p>
-          </div>
-
-          {/* Step 3 */}
-          <div
-            ref={stepRefs[2]}
-            className='opacity-0 flex flex-col items-center border border-gray-300 rounded-lg p-6 bg-gray-50 font-semi-bold sm:h-auto lg:h-[45vh] transition-transform transform duration-300 ease-in-out hover:scale-110 hover:shadow-3xl hover:bg-blue-50 hover:cursor-pointer'
-          >
-            <div className='w-20 h-20 flex items-center justify-center rounded-full mb-4 border-1 bg-blue-600 text-white hover:bg-indigo-700 transition-colors duration-300'>
-              <span className='text-4xl font-bold'>3</span>
+            {/* Step 2 for Job Seekers */}
+            <div
+              ref={stepRefs[4]}
+              className='opacity-0 flex flex-col items-center border border-gray-300 rounded-lg p-6 bg-gray-50 font-semi-bold sm:h-auto h-auto transition-transform transform duration-300 ease-in-out hover:scale-110 hover:shadow-3xl hover:bg-blue-50 hover:cursor-pointer'
+            >
+              <div className='w-20 h-20 flex items-center justify-center rounded-full mb-4 border-1 bg-blue-600 text-white hover:bg-teal-700 transition-colors duration-300'>
+                <span className='text-4xl font-bold'>2</span>
+              </div>
+              <p className='text-center'>
+              Follow the status of your application with real-time updates as you move through the process.
+              </p>
             </div>
-            <p className='text-center'>
-              Conclude the process by evaluating the results and outcomes. This
-              final stage involves analyzing data, gathering feedback, and
-              assessing whether the initial goals were achieved. Lessons learned
-              are documented, and strategies are refined for future projects.
-            </p>
+            {/* Step 3 for Job Seekers */}
+            <div
+              ref={stepRefs[5]}
+              className='opacity-0 flex flex-col items-center border border-gray-300 rounded-lg p-6 bg-gray-50 font-semi-bold sm:h-auto h-auto transition-transform transform duration-300 ease-in-out hover:scale-110 hover:shadow-3xl hover:bg-blue-50 hover:cursor-pointer'
+            >
+              <div className='w-20 h-20 flex items-center justify-center rounded-full mb-4 border-1 bg-blue-600 text-white hover:bg-indigo-700 transition-colors duration-300'>
+                <span className='text-4xl font-bold'>3</span>
+              </div>
+              <p className='text-center'>
+              With the help of professionals backing your application, you’re one step closer to landing that dream role.
+              </p>
+            </div>
           </div>
         </div>
       </div>
