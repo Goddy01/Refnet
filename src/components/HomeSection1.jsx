@@ -31,7 +31,7 @@ export default function HomeSection1() {
     const csrfToken = Cookies.get('csrftoken');
 
     try {
-      const response = await axios.post('http://localhost:8000/api/waitlist/', { email }, {
+      const response = await axios.post('https://gorah-backend.onrender.com/api/waitlist/', { email }, {
         headers: {
           'X-CSRFToken': csrfToken,
         },
