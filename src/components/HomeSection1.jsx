@@ -54,7 +54,7 @@ export default function HomeSection1() {
   };
 
   return (
-    <div className="relative min-h-screen w-full my-9 py-11">
+    <div className="relative min-h-screen w-full my-5 py-11">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
@@ -62,7 +62,7 @@ export default function HomeSection1() {
       />
 
       {/* Overlay Content */}
-      <div className="absolute top-[35vh] flex flex-col w-full items-center text-center text-gray-50 z-10 px-4 md:px-8 lg:px-16">
+      <div className="absolute top-[30vh] flex flex-col w-full items-center text-center text-gray-50 z-10 px-4 md:px-8 lg:px-16">
         <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 via-teal-400 to-blue-600 text-5xl lg:text-6xl font-bold mb-4">
           Your Career Accelerator
         </h1>
