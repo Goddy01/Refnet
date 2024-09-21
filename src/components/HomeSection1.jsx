@@ -29,6 +29,10 @@ export default function HomeSection1() {
     setIsLoading(true);  // Start the loader
 
     const csrfToken = Cookies.get('csrftoken');
+    if (!csrfToken) {
+      setError('CSRF token is missing.');
+      return;
+    }
 
     try {
       const response = await axios.post('https://gorah-backend.onrender.com/api/waitlist/', { email }, {
