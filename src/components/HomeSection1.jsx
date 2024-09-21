@@ -29,10 +29,6 @@ export default function HomeSection1() {
     setIsLoading(true);  // Start the loader
 
     const csrfToken = Cookies.get('csrftoken');
-    if (!csrfToken) {
-      setError('CSRF token is missing.');
-      return;
-    }
 
     try {
       const response = await axios.post('https://gorah-backend.onrender.com/api/waitlist/', { email }, {
@@ -48,9 +44,9 @@ export default function HomeSection1() {
     } catch (error) {
       console.error('Error submitting email:', error);
       if (error.response && error.response.data) {
-        setError(error.response.data.error || 'Something went wrong. Please try again.');
+        setError(error.response.data.error || 'Something went wrong. Please try again!!');
       } else {
-        setError('Something went wrong. Please try again.');
+        setError('Something went wrong. Please try again!');
       }
     } finally {
       setIsLoading(false);  // Stop the loader
