@@ -8,7 +8,7 @@ export default function Header(props) {
       {/* Fixed Header */}
       <header className="fixed top-0 left-0 right-0 text-white p-4 bg-[#19469D] z-50 w-full">
         <div className="container mx-auto flex items-center justify-between">
-          <h1 className="text-[23px] font-bold gradient-text">Gorah</h1>
+          <h1 className="text-[23px] font-bold gradient-text">Refnet</h1>
           <button
             className="lg:hidden px-3 py-2 text-gray-200 hover:text-gray-400 focus:outline-none"
             onClick={toggleMenu}
