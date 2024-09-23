@@ -4,6 +4,7 @@ import HomeSection2 from './components/HomeSection2'
 import Header from './components/Header'
 import Pricing from './components/Pricing'
 import '/src/axiosConfig.js';
+import Footer from './components/Footer'
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
       <HomeSection1 toggleModal={toggleModal} closeModal={closeModal} isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} toggleMenu={toggleMenu}showNav={showNav} setShowNav={setShowNav} handleSubmit={handleSubmit} email={email} setEmail={setEmail} isSubmitted={isSubmitted} setIsSubmitted={setIsSubmitted} />
       <HomeSection2 />
       <Pricing />
+      <Footer />
     </div>
   )
 }
